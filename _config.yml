@@ -13,8 +13,8 @@ color:
 footer: Your Website
 
 navitems:
-  - name: Home
-    url: https://lab9k.gent/MOTFP   
+  - name: Github
+    url: https://github.com/lab9k/MOTFP   
   - name: Documentatie
     url: https://www.example.com
 
