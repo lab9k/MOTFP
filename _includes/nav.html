@@ -23,15 +23,20 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
+        <!-- <li>
+                  <a class="page-scroll" href="#about">About</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#download">Download</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="#contact">Contact</a>
+                </li> -->
+        {% for navlink in site.navitems %}
         <li>
-          <a class="page-scroll" href="#about">About</a>
+          <a href="{{ navlink.url }}">{{ navlink.name }}</a>
         </li>
-        <li>
-          <a class="page-scroll" href="#download">Download</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contact">Contact</a>
-        </li>
+        {% endfor %}
       </ul>
     </div>
     <!-- /.navbar-collapse -->
