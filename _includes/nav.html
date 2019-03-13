@@ -23,18 +23,25 @@
         <li class="hidden">
           <a href="#page-top"></a>
         </li>
+        {% for navlink in site.navitems %} {% capture urlStart %}{{
+          navlink.url | slice: 0
+        }}{% endcapture %}
         <li>
-          <a class="page-scroll" href="#about">About</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#download">Download</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contact">Contact</a>
-        </li>
-        {% for navlink in site.navitems %}
-        <li>
-          <a href="{{ navlink.url }}">{{ navlink.name }}</a>
+          {% if urlStart contains '/' %}
+
+          <a
+            href="{{ navlink.url | prepend: site.baseurl }}"
+            class="{{ navlink.class }}"
+            >{{ navlink.name }}</a
+          >
+
+          {% else %}
+
+          <a href="{{ navlink.url }}" class="{{ navlink.class }}">{{
+            navlink.name
+          }}</a>
+
+          {% endif %}
         </li>
         {% endfor %}
       </ul>

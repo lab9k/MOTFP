@@ -2,7 +2,7 @@
 title: Grayscale
 email: your-email@domain.com
 url: https://lab9k.gent/
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
 baseurl: /MOTFP
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -12,11 +12,26 @@ color:
 # Footer settings
 footer: Your Website
 
+# here you can add/remove navigation items. This works with local, and outbound links
+# for links to the home page, you can include the id of the element you wish to scroll to.
+# if you wish to enable slow scrolling to the element, you should add 'class: page-sroll' to the item.
+# all links starting with '/' will be prepended with the baseurl of your website (triggering a page reload)
 navitems:
   - name: Github
-    url: https://github.com/lab9k/MOTFP   
+    url: https://github.com/lab9k/MOTFP
   - name: Documentatie
     url: https://www.example.com
+  - name: about
+    url: '#about'
+    class: page-scroll
+  - name: Download
+    # this is an example to trigger a page reload. notice how the class is still page-scroll,
+    # triggering the reload will break scrolljacking
+    url: '/#download'
+    class: page-scroll
+  - name: contact
+    url: '#contact'
+    class: page-scroll
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
