@@ -4,6 +4,8 @@ echo -e "\033[1;33m==========> Installing jekyll, bundler <==========\033[0m"
 gem install --user-install jekyll bundler
 
 echo -e "\033[1;33m==========> Installing dependencies <==========\033[0m"
+mkdir .bundle
+echo -e '---\nBUNDLE_PATH: "vendor/bundle"' > .bundle/config
 bundle install
 
 echo -e "\033[1;34m==========> Installation complete <==========\033[0m"
