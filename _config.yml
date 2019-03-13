@@ -1,8 +1,8 @@
 # Site settings
-title: Grayscale
-email: your-email@domain.com
+title: Museum of Things for People
+email: pieterjan.pauwels@digipolis.gent
 url: https://lab9k.gent/
-description: 'Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.'
+description: 'Onderzoek naar de waarde van Internet of Things in musea.'
 baseurl: /MOTFP
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -36,15 +36,15 @@ navitems:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/SBootstrap
+    url: https://twitter.com/Foresight
   - title: facebook
     url:
   - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
+    url:
   - title: bitbucket
-    url: http://bitbucket.org/jekyll
+    url:
   - title: github
-    url: https://github.com/IronSummitMedia/startbootstrap
+    url: https://github.com/Lab9K
 
 # Build settings
 markdown: kramdown
