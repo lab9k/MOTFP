@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+echo -e "\033[1;33m==========> Installing jekyll, bundler <==========\033[0m"
+gem install --user-install jekyll bundler
+
+echo -e "\033[1;33m==========> Installation complete <==========\033[0m"
+
+echo -e "You can now serve your website by running this command: \n\033[1;35mbundler exec jekyll serve\033[0m"

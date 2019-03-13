@@ -1,12 +1,19 @@
-Grayscale Jekyll theme
-=========================
+# Grayscale Jekyll theme
 
 Jekyll theme based on [Grayscale bootstrap theme ](http://ironsummitmedia.github.io/startbootstrap-grayscale/)
 
 ## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/grayscale-theme)
+
+### Mac OS
+
+- Execute the install script in the repository with:
+
+```bash
+$ bash ./mac_install
+```
 
 ## Screenshot
+
 ![screenshot](https://raw.githubusercontent.com/jeromelachaud/grayscale-theme/master/screenshot.png)
 
 =========
