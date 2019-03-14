@@ -23,8 +23,8 @@ navitems:
   - name: Doel
     url: '#goal'
     class: page-scroll
-  - name: about
-    url: '#about'
+  - name: Context
+    url: '#context'
     class: page-scroll
   - name: blog
     # this is an example to trigger a page reload. notice how the class is still page-scroll,
