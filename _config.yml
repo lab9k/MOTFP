@@ -17,18 +17,19 @@ footer: Your Website
 # if you wish to enable slow scrolling to the element, you should add 'class: page-sroll' to the item.
 # all links starting with '/' will be prepended with the baseurl of your website (triggering a page reload)
 navitems:
-  - name: Github
-    url: https://github.com/lab9k/MOTFP
-  - name: Documentatie
-    url: https://www.example.com
+  - name: over
+    url: '#about'
+    class: page-scroll
+  - name: Doel
+    url: '#goal'
+    class: page-scroll
   - name: about
     url: '#about'
     class: page-scroll
-  - name: Download
+  - name: blog
     # this is an example to trigger a page reload. notice how the class is still page-scroll,
     # triggering the reload will break scrolljacking
-    url: '/#download'
-    class: page-scroll
+    url: 'https://medium.com/@foresightgent'
   - name: contact
     url: '#contact'
     class: page-scroll
