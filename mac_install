@@ -10,4 +10,4 @@ bundle install
 
 echo -e "\033[1;34m==========> Installation complete <==========\033[0m"
 
-echo -e "You can now serve your website by running this command: \n\033[1;35mbundler exec jekyll serve\033[0m"
+echo -e "You can now serve your website by running this command: \n\033[1;35mbundle exec jekyll serve\033[0m"
