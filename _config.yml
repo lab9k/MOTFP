@@ -1,6 +1,6 @@
 # Site settings
 title: Museum of Things for People
-email: pieterjan.pauwels@digipolis.gent
+email: foresight@digipolis.gent
 url: https://lab9k.gent/
 description: 'Onderzoek naar de waarde van Internet of Things in musea.'
 baseurl: /MOTFP
@@ -37,13 +37,11 @@ navitems:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/Foresight
+    url: https://twitter.com/foresightgent
   - title: facebook
-    url:
-  - title: stack-overflow
-    url:
-  - title: bitbucket
-    url:
+    url: https://www.facebook.com/foresightgent/
+  - title: instagram
+    url: https://www.instagram.com/foresightgent/?hl=nl
   - title: github
     url: https://github.com/Lab9K
 

@@ -135,7 +135,6 @@ a:focus {
     display: table;
     width: 100%;
     height: auto;
-    padding: 100px 0;
     text-align: center;
     color: #fff;
     background: url({{"/img/intro-bg.jpg"  | prepend: site.baseurl }}) no-repeat bottom center scroll;
@@ -221,8 +220,8 @@ a:focus {
     }
 
     50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     100% {
@@ -238,8 +237,8 @@ a:focus {
     }
 
     50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
+        -moz-transform: scale(1.1);
+        transform: scale(1.1);
     }
 
     100% {

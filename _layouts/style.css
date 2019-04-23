@@ -1,2 +1,387 @@
 {% include css/bootstrap.min.css %}
 {% include css/grayscale.css %}
+
+/* All */
+
+@media(max-width:767px) {
+    .btn-circle {
+        visibility: hidden;
+    }
+}
+
+/* header */
+
+
+.intro {
+    width: 100%;
+    font-size: 24px;
+    position: relative;
+
+}
+
+.intro .row {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.intro .intro-body .brand-heading {
+    width: 100%;
+}
+
+.intro .intro-text {
+	margin-top: 3%;
+}
+
+.intro .btn-circle {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    margin-left: -37.5px;
+}
+
+@media(max-width:767px) {
+    .intro .row{
+        margin-bottom: 40%;
+        margin-top: 50%;
+    }
+}
+
+
+/* about */
+
+#about {
+    -webkit-box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.50);
+    position: relative;
+}
+
+#about .row {
+    margin-top: 23.5%;
+    margin-bottom: 23.5%;
+
+}
+
+#about .row p {
+    padding: 0 50px 130px 50px;
+}
+
+#about .btn-circle {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    margin-left: -37.5px;
+
+}
+
+@media(max-width:767px) {
+    #about .row{
+        margin-bottom: 10%;
+        margin-top: -10%;
+    }
+}
+
+/* goal */
+
+
+#goal {
+
+    background-color: #f4f4f4;
+    width: 100%;
+    -webkit-box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.5);
+    -moz-box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.5);
+    box-shadow: inset 0px 10px 20px -3px rgba(0,0,0,0.50);
+    position: relative;
+
+}
+
+#goal .container {
+    margin-top: -4%;
+    width: 100%;
+
+}
+
+#goal .row {
+    z-index: 3;
+    background-color: white;
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.2);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.20);
+    box-shadow: 0px 0px 25px -3px rgba(0,0,0,.20);
+    border-radius: 20px;
+    width: 100%;
+    display: block;
+    border: 2px #333333 dashed;
+    margin-bottom: 25%;
+}
+
+#goal .niveaus {
+    width: 30%;
+    text-align: center;
+    float:left;
+    margin: 2% 2% 2% 0;
+    background-color: #fff;
+    height: 100%;
+    border-radius: 7%;
+
+
+}
+
+#goal li:first-child {
+    margin-left: 3%;
+}
+
+
+#goal .niveaus .box-dummy {
+    border: 1px #333333 solid;
+    margin: 10% 25% 0 25%;
+    width: 50%;
+    border-radius: 100%;
+    background-color: #333333;
+    z-index: 1;
+}
+
+
+li:hover .box-dummy{
+    animation: pulse 3s infinite;
+    display: block;
+
+}
+
+
+#goal .icon {
+    z-index: 1;
+    position: relative;
+    color: white;
+    display:block;
+    line-height: 1;
+    font-family: FontAwesome;
+    font-size: 500%;
+    padding: 20%;
+}
+
+#goal .container a,
+#goal .container span {
+    display:block;
+}
+
+#goal h2 {
+
+    color: #333333;
+    margin-bottom: 100px;
+}
+
+
+#goal h3 {
+    color: #333333;
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#goal p {
+    color: #333333;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 100%;
+
+}
+
+#goal .btn-circle {
+    border: 2px solid #333333;
+    position: absolute;
+    top: 90%;
+    left:50%;
+    margin-left: -37.5px;
+    background: #fff;
+    color: #333333;
+    -webkit-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.2);
+    -moz-box-shadow: 0px 0px 10px -3px rgba(0,0,0,.20);
+    box-shadow: 0px 0px 25px -3px rgba(0,0,0,.20);
+}
+
+#goal .btn-circle:hover,
+#goal .btn-circle:focus {
+    outline: 0;
+    color: #333333;
+    background: rgba(240,240,240,.9);
+}
+
+
+@media(max-width:767px) {
+    .connector1,
+    .connector2 {
+        visibility: hidden;
+    }
+    #goal .row {
+        padding-top: 30px;
+        width: 80%;
+        margin-left: 10%;
+        margin-top: -50px;
+    }
+    #goal .niveaus:first-child {
+        margin-top: 3%;
+        margin-left: 10%;
+
+    }
+
+    #goal .niveaus {
+        width: 80%;
+        margin-left: 10%;
+        margin-bottom: 5%;
+        display:block;
+        float:left;
+        align-content: center;
+        border: 2px #333333 dashed;
+
+    }
+    #goal .niveaus .box-dummy {
+        height: 50%;
+        width: 50%;
+        margin: 10% 25% 0 25%;
+    }
+    #goal .icon {
+        font-size: 6.5em;
+    }
+
+}
+
+@media(max-width: 1199px) {
+
+    .connector1,
+    .connector2 {
+        visibility: hidden;
+    }
+
+}
+
+/* context */
+
+#context {
+    position: relative;
+}
+
+
+#context .row {
+    margin-top: 23.5%;
+    margin-bottom: 23.5%;
+
+
+}
+
+#context .row p {
+    padding: 0 50px 105px 50px;
+}
+
+#context a.btn-circle {
+    position: absolute;
+    top: 90%;
+    left:50%;
+    margin-left: -37.5px;
+}
+
+@media(max-width:767px) {
+    #context .row {
+        margin-bottom: 10%;
+    }
+}
+
+
+/* partners */
+
+#partners {
+	background-color: #fff;
+	align-content: center;
+    padding-bottom: 100px;
+    -webkit-box-shadow: inset 0px 17px 15px -8px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 0px 17px 15px -8px rgba(0,0,0,0.34);
+    box-shadow: inset 0px 17px 15px -8px rgba(0,0,0,0.34);
+}
+
+#partners > .container {
+    border-bottom: dashed black 2px;
+    width: 80%;
+}
+
+#partners .col-md-2 {
+    margin-left: 3%;
+    margin-bottom: 7%;
+}
+
+#partners .col-md-2:hover img {
+   animation: pulse 3s infinite;
+}
+
+#partners .krook,
+#partners .gent,
+#partners .dmg,
+#partners .digipolis,
+#partners .oostende {
+    height: 92.5px;
+}
+
+@media(max-width:767px) {
+    #partners .col-md-2 {
+        margin-bottom: 7%;
+        width: 35%;
+        align-content: center;
+        margin-left: 33%;
+    }
+    #partners .col-md-2:last-child {
+        margin-bottom: 15%;
+    }
+    #partners .container {
+        margin-bottom: 10%;
+        width: 80%;
+    }
+}
+
+/* Contact */
+
+#contact {
+    background-color: #fff;
+    width: 100%;
+    color: black;
+    -webkit-box-shadow: inset 0px -17px 15px -8px rgba(0,0,0,0.34);
+    -moz-box-shadow: inset 0px -17px 15px -8px rgba(0,0,0,0.34);
+    box-shadow: inset 0px -17px 15px -8px rgba(0,0,0,0.34);
+}
+
+#contact .row {
+    margin-top: -200px;
+    margin-bottom: 150px;
+}
+
+#contact .vlaanderen {
+    height: 80px;
+    margin-bottom: 50px;
+}
+
+#contact p {
+    margin-top: 50px;
+}
+
+#contact a:hover .vlaanderen{
+    animation: pulse 3s infinite;
+}
+
+.banner-social-buttons a {
+    color: black;
+    border: 1px solid black;
+}
+
+.banner-social-buttons a:hover {
+    background-color:black;
+    color:white;
+    border: 1px white solid;
+}
+
+@media(max-width:767px) {
+    #contact h2 {
+        margin-bottom: -30px;
+    }
+    #contact .vlaanderen {
+        margin-bottom: -100px;
+    }
+}
