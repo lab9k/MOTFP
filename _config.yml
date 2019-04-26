@@ -3,7 +3,7 @@ title: Museum of Things for People
 email: foresight@digipolis.gent
 url: https://lab9k.gent/
 description: 'Onderzoek naar de waarde van Internet of Things in musea.'
-baseurl: /MOTFP
+baseurl: /
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
