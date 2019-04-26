@@ -3,7 +3,7 @@ title: Museum of Things for People
 email: foresight@digipolis.gent
 url: https://lab9k.gent/
 description: 'Onderzoek naar de waarde van Internet of Things in musea.'
-baseurl: /MOTFP
+baseurl: /
 # Color settings (hex-codes without the leading hash-tag)
 color:
   primary-dark: '#000000'
@@ -29,7 +29,7 @@ navitems:
   - name: blog
     # this is an example to trigger a page reload. notice how the class is still page-scroll,
     # triggering the reload will break scrolljacking
-    url: 'https://medium.com/@foresightgent'
+    url: 'https://medium.com/@MOTFP'
   - name: contact
     url: '#contact'
     class: page-scroll
