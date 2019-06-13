@@ -32,11 +32,9 @@
         <li>
           {% if urlStart contains '#' and page.url != '/' %}
 
-          <a
-            href="{{ navlink.url | prepend: site.baseurl }}"
-            class="{{ navlink.class }}"
-            >{{ navlink.name }}</a
-          >
+          <a href="/{{ navlink.url }}" class="{{ navlink.class }}">{{
+            navlink.name
+          }}</a>
 
           {% else %}
 
