@@ -13,9 +13,6 @@ color:
 footer: Your Website
 
 # here you can add/remove navigation items. This works with local, and outbound links
-# for links to the home page, you can include the id of the element you wish to scroll to.
-# if you wish to enable slow scrolling to the element, you should add 'class: page-sroll' to the item.
-# all links starting with '/' will be prepended with the baseurl of your website (triggering a page reload)
 navitems:
   - name: over
     url: '#about'
@@ -27,12 +24,12 @@ navitems:
     url: '#context'
     class: page-scroll
   - name: blog
-    # this is an example to trigger a page reload. notice how the class is still page-scroll,
-    # triggering the reload will break scrolljacking
     url: 'https://medium.com/@MOTFP'
   - name: contact
     url: '#contact'
     class: page-scroll
+  - name: events
+    url: '/events'
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:

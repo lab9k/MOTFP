@@ -356,6 +356,12 @@ li:hover .box-dummy{
     border: 1px white solid;
 }
 
+section.event {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 @media(max-width:767px) {
     #contact h2 {
         margin-bottom: -30px;
