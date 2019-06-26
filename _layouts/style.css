@@ -256,7 +256,9 @@ li:hover .box-dummy{
     margin-left: 2.5%;
 }
 
-
+#margin-top {
+    margin-top: 10rem;
+}
 #context .row {
     margin-top: 23.5%;
     margin-bottom: 23.5%;
