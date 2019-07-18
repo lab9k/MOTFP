@@ -299,13 +299,27 @@ li:hover .box-dummy{
     margin-bottom: 7%;
 }
 
-/*#partners .krook,
+#partners .krook,
 #partners .gent,
 #partners .dmg,
 #partners .digipolis,
-#partners .oostende {
+#partners .oostende,
+#partners .MICT,
+#partners .acontrario,
+#partners .vlaanderen,
+#partners .imec{
     height: 92.5px;
-}*/
+}
+
+#partners .Crunch,
+#partners .pozyx{
+    height: 60px;
+}
+
+#partners .acontrario,
+#partners .pozyx{
+    padding-top: 10px;
+}
 
 #partners .btn-circle {
     border: 2px solid #333333;
@@ -319,11 +333,6 @@ li:hover .box-dummy{
     outline: 0;
     color: #333333;
     background: rgba(240,240,240,.9);
-}
-
-#partners img
-{
-    height: 92.5px;
 }
 
 @media(max-width:767px) {
@@ -340,10 +349,12 @@ li:hover .box-dummy{
         margin-bottom: 10%;
         width: 80%;
     }
-    #partners img
-    {
-        height: 92.5px;
-    }
+
+    #partners .vlaanderen,
+    #partners .imec{
+    width: 70%;
+}
+
 }
 
 /* Contact */
