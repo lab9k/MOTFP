@@ -397,6 +397,32 @@ section.event {
     justify-content: center;
 }
 
+.event_speakers h3 {
+    margin-bottom: 16px;
+}
+.event_speakers p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.event_speakers .thumbnail img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.event_speakers .heightfix {
+    justify-content: center;
+}
+.event_speakers .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event_speakers .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
 @media(max-width:767px) {
     #contact h2 {
         margin-bottom: -30px;

@@ -34,6 +34,14 @@ navitems:
   - name: events
     url: '/events'
 
+# use the speaker.columns attribute to specify the width of a column. (out of 12 -> columns===4 means 3 columns per row)
+speakers:
+  # - name: John Doe
+  #   page: https://www.example.com
+  #   function: assistant space engineer
+  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=1
+  #   columns: 4
+
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter

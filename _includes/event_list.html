@@ -1,16 +1,61 @@
 <section class="event">
-    <img src="/img/MOTFP_banner_website.png" alt="MOTFP event banner" />
-  </section>
-  <section class="event_text container" style="font-family: assistant">
-    <h2 id="margin-top">FUTURE OF CULTURE STUDIEDAG</h2>
-    <h3>MOTFP SLOTEVENT</h3>
-    <p>Samen met alle partners stellen we op 19 september de resultaten, conclusies en de toekomstplannen van het Museum of Things for People project voor.</p>
-    <h3>BREDE STUDIEDAG</h3>
-    <p>Samen met Cultuurconnect breiden we deze dag uit naar een studiedag over de toekomst van cultuur. We inspireren de culturele sector met een drietal razend interessante sprekers en een afsluitend panel. We voorzien ruimte voor discussie met het publiek.</p>
-    <p>Inschrijven doe je via <a href="http://bit.ly/FUTUREofCULTURE">http://bit.ly/FUTUREofCULTURE</a>.</p>
-    <p>Je kan je inschrijven op drie verschillende onderdelen:<br>
-        Van 10:00 tot 12:30 is de slotevent van MOTFP waarbij we het hele project voorstellen van begin tot eind. Alle partners stellen daarbij hun conclusies en de business case voor.<br>
-        Van 13:30 tot 17:00 is er aansluitend een studiedag over de toekomst van de cultuur en de rol van technologie in de sector. Hier nodigen we nationale en internationale sprekers uit om de discussie over de toekomst op gang te brengen.<br>
-        Om 17:30 is er een afsluitend moment in het Design Museum Gent waar je de MOTFP technologie nog eens kan testen, alsook een natje en droogje krijgt om de dag af te sluiten.</p>
-  </section>
-  
+  <img src="/img/MOTFP_banner_website.png" alt="MOTFP event banner" />
+</section>
+<section class="event_text container" style="font-family: assistant">
+  <h2 id="margin-top">FUTURE OF CULTURE STUDIEDAG</h2>
+  <h3>MOTFP SLOTEVENT</h3>
+  <p>
+    Samen met alle partners stellen we op 19 september de resultaten, conclusies
+    en de toekomstplannen van het Museum of Things for People project voor.
+  </p>
+  <h3>BREDE STUDIEDAG</h3>
+  <p>
+    Samen met Cultuurconnect breiden we deze dag uit naar een studiedag over de
+    toekomst van cultuur. We inspireren de culturele sector met een drietal
+    razend interessante sprekers en een afsluitend panel. We voorzien ruimte
+    voor discussie met het publiek.
+  </p>
+  <p>
+    Inschrijven doe je via
+    <a href="http://bit.ly/FUTUREofCULTURE">http://bit.ly/FUTUREofCULTURE</a>.
+  </p>
+  <p>
+    Je kan je inschrijven op drie verschillende onderdelen:<br />
+    Van 10:00 tot 12:30 is de slotevent van MOTFP waarbij we het hele project
+    voorstellen van begin tot eind. Alle partners stellen daarbij hun conclusies
+    en de business case voor.<br />
+    Van 13:30 tot 17:00 is er aansluitend een studiedag over de toekomst van de
+    cultuur en de rol van technologie in de sector. Hier nodigen we nationale en
+    internationale sprekers uit om de discussie over de toekomst op gang te
+    brengen.<br />
+    Om 17:30 is er een afsluitend moment in het Design Museum Gent waar je de
+    MOTFP technologie nog eens kan testen, alsook een natje en droogje krijgt om
+    de dag af te sluiten.
+  </p>
+</section>
+<section class="event_speakers container">
+  <div class="row grid">
+    {% for speaker in site.speakers %}
+    <div class="col-xs-12 col-md-{{ speaker.columns }} heightfix">
+      <div class="thumbnail">
+        <img
+          src="{{ speaker.image }}"
+          alt="speaker profile picture"
+          loading="lazy"
+        />
+        <div class="caption">
+          <h3>
+            {{ speaker.name }}
+          </h3>
+          <p>{{ speaker.function }}</p>
+          <p>
+            <a href="{{ speaker.page }}" target="_blank">
+              <i class="fa fa-external-link"></i> {{ speaker.page }}</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
