@@ -34,6 +34,7 @@
   </p>
 </section>
 <section class="event_speakers container">
+  <h2>Sprekers</h2>
   <div class="row grid">
     {% for speaker in site.speakers %}
     <div class="col-xs-12 col-md-{{ speaker.columns }} heightfix">
@@ -44,6 +45,9 @@
           loading="lazy"
         />
         <div class="caption">
+          <h3>
+            <small>{{ speaker.subject }}</small>
+          </h3>
           <h3>
             {{ speaker.name }}
           </h3>

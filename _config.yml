@@ -38,9 +38,22 @@ navitems:
 speakers:
   # - name: John Doe
   #   page: https://www.example.com
-  #   function: assistant space engineer
+  #   function: assistant aeronautics engineer
   #   image: https://source.unsplash.com/random/400x400/?portrait&sig=1
   #   columns: 4
+  #   subject: creating an A.I. agent to recognize cats
+  # - name: John Doe2
+  #   page: https://www.example.com
+  #   function: assistant aeronautics engineer
+  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=2
+  #   columns: 4
+  #   subject: Wiring up an arduino to my brain
+  # - name: John Doe3
+  #   page: https://www.example.com
+  #   function: assistant aeronautics engineer
+  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=3
+  #   columns: 4
+  #   subject: Talk about all belgian beers (5hs)
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
