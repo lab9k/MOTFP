@@ -33,6 +33,7 @@
     de dag af te sluiten.
   </p>
 </section>
+{% if site.speakers.size > 0 %}
 <section class="event_speakers container">
   <h2>Sprekers</h2>
   <div class="row grid">
@@ -63,3 +64,4 @@
     {% endfor %}
   </div>
 </section>
+{% endif %}
