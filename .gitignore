@@ -2,3 +2,4 @@ _site
 .vscode
 .bundle
 vendor
+.DS_Store
