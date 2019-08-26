@@ -45,13 +45,13 @@ speakers:
   - name: Fredo De Smet
     page: https://www.fredodesmet.com/
     function: Artistiek Consulent Design Museum Gent
-    image: img/sprekers/fredodesmet.png
+    image: /img/sprekers/fredodesmet.png
     columns: 4
     subject: The battle for the third space
   - name: Jasper Visser
     page: https://visschstam.com/
     function: Strategisch adviseur // Senior partner VISSCH+STAMM
-    image: img/sprekers/jaspervisser.png
+    image: /img/sprekers/jaspervisser.png
     columns: 4
     subject: Een smart museum voor slimme mensen
 
