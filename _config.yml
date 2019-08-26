@@ -36,24 +36,24 @@ navitems:
 
 # use the speaker.columns attribute to specify the width of a column. (out of 12 -> columns===4 means 3 columns per row)
 speakers:
-  # - name: John Doe
-  #   page: https://www.example.com
-  #   function: assistant aeronautics engineer
-  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=1
-  #   columns: 4
-  #   subject: creating an A.I. agent to recognize cats
-  # - name: John Doe2
-  #   page: https://www.example.com
-  #   function: assistant aeronautics engineer
-  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=2
-  #   columns: 4
-  #   subject: Wiring up an arduino to my brain
-  # - name: John Doe3
-  #   page: https://www.example.com
-  #   function: assistant aeronautics engineer
-  #   image: https://source.unsplash.com/random/400x400/?portrait&sig=3
-  #   columns: 4
-  #   subject: Talk about all belgian beers (5hs)
+   - name: Tom Palmaerts
+     page: https://trendwolves.com/
+     function: Trendwatcher // Manager trendwolves
+     image: https://trendwolves.com/assets/files/made/assets/files/team/tomklein_270_270_80_int_s_c1_c_c_0_0_1.jpg
+     columns: 4
+     subject: Culture in 2030
+   - name: Fredo De Smet
+     page: https://www.fredodesmet.com/
+     function: Artistiek Consulent Design Museum Gent
+     image: img/sprekers/fredodesmet.png
+     columns: 4
+     subject: The battle for the third space
+  - name: Jasper Visser
+     page: https://visschstam.com/
+     function: Strategisch adviseur // Senior partner VISSCH+STAMM
+     image: img/sprekers/jaspervisser.png
+     columns: 4
+     subject: Een smart museum voor slimme mensen
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
