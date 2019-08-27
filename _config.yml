@@ -40,25 +40,25 @@ speakers:
     page: https://trendwolves.com/
     function: Trendwatcher & Manager trendwolves
     image: /img/sprekers/tompalmaerts.jpg
-    columns: 4
+    columns: 3
     subject: Culture in 2030
   - name: Fredo De Smet
     page: https://www.fredodesmet.com/
     function: Artistiek Consulent Design Museum Gent & Curator Hello Robot
     image: /img/sprekers/fredodesmet.jpg
-    columns: 4
+    columns: 3
     subject: The battle for the third space
   - name: Jasper Visser
     page: https://visschstam.com/
     function: Strategisch adviseur & Senior partner VISSCH+STAMM
     image: /img/sprekers/jaspervisser.jpg
-    columns: 4
+    columns: 3
     subject: Een smart museum voor slimme mensen
   - name: Sara Logghe
     page: https://www.cultuurconnect.be/
     function: Project Manager R&D
     image: /img/sprekers/saralogghe.jpg
-    columns: 4
+    columns: 3
     subject: Panellid: Rol van tech in de cultuursector
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
