@@ -54,6 +54,12 @@ speakers:
     image: /img/sprekers/jaspervisser.jpg
     columns: 4
     subject: Een smart museum voor slimme mensen
+  - name: Sara Logghe
+    page: https://www.cultuurconnect.be/
+    function: Project Manager R&D
+    image: /img/sprekers/saralogghe.jpg
+    columns: 4
+    subject: Panellid: Rol van tech in de cultuursector
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
