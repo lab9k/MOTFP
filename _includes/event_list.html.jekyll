@@ -71,7 +71,7 @@
       </ul>
     </div>
     <div class="col-md-6 col-xs12">
-      <img src="{{ site.baseurl }}img/motfp_loop.gif" alt="motfp gif" style="max-width:100%;">
+      <img src="/img/motfp_loop.gif" alt="motfp gif" style="max-width:100%;">
     </div>
   </div>
   
@@ -179,7 +179,7 @@
         <a href="https://stad.gent/" alt="Stad Gent website" target="_blank">
           <img
             class="gent"
-            src="{{ site.baseurl }}img/partners/Logo_Gent.svg"
+            src="/img/partners/Logo_Gent.svg"
             alt="Stad Gent logo"
           />
         </a>
@@ -192,7 +192,7 @@
         >
           <img
             class="dmg"
-            src="{{ site.baseurl }}img/partners/Logo Design Museum Gent.svg"
+            src="/img/partners/Logo Design Museum Gent.svg"
             alt="Design Museum Gent logo"
           />
         </a>
@@ -205,7 +205,7 @@
         >
           <img
             class="digipolis"
-            src="{{ site.baseurl }}img/partners/Logo_digipolis.svg"
+            src="/img/partners/Logo_digipolis.svg"
             alt="Digipolis Gent logo"
           />
         </a>
@@ -218,7 +218,7 @@
         >
           <img
             class="oostende"
-            src="{{ site.baseurl }}img/partners/Stad-Oostende.svg"
+            src="/img/partners/Stad-Oostende.svg"
             alt="Stad Oostende logo"
           />
         </a>
@@ -227,14 +227,14 @@
         <a href="https://dekrook.be/" alt="De Krook website" target="_blank">
           <img
             class="krook"
-            src="{{ site.baseurl }}img/partners/dekrook.svg"
+            src="/img/partners/dekrook.svg"
             alt="De Krook logo"
           />
         </a>
       </div>
       <div class="col-md-2">
         <a href="https://www.cultuurconnect.be/" alt="Cultuurconnect website" target="_blank">
-          <img src="{{ site.baseurl }}img/partners/Cultuurconnect_logo.png"
+          <img src="/img/partners/Cultuurconnect_logo.png"
             alt="cultuurconnect logo" 
             class="cultuurconnect">
         </a>
@@ -249,7 +249,7 @@
         >
           <img
             class="vlaanderen"
-            src="{{ site.baseurl }}img/partners/vlaio.svg"
+            src="/img/partners/vlaio.svg"
             alt="De Krook logo"
           />
         </a>
@@ -258,7 +258,7 @@
         <a href="https://www.imec.be" alt="imec" target="_blank">
           <img
             class="imec"
-            src="{{ site.baseurl }}img/partners/Logo_imec.svg"
+            src="/img/partners/Logo_imec.svg"
             alt="imec logo"
           />
         </a>
