@@ -294,7 +294,7 @@ li:hover .box-dummy{
     margin-bottom: 50px;
 }
 
-#partners .col-md-2 {
+#partners .margin-fix {
     margin-left: 3%;
     margin-bottom: 7%;
 }
@@ -307,13 +307,26 @@ li:hover .box-dummy{
 #partners .MICT,
 #partners .acontrario,
 #partners .vlaanderen,
-#partners .imec{
+#partners .imec,
+#partners .cultuurconnect
+ {
     height: 92.5px;
 }
 
 #partners .Crunch,
-#partners .pozyx{
+#partners .pozyx
+{
     height: 60px;
+}
+
+#partners .row {
+    margin-bottom: 7%;
+}
+
+#partners .row:first-child {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #partners .acontrario,
@@ -414,6 +427,35 @@ section.event {
 .event_speakers .heightfix {
     justify-content: center;
 }
+
+.event_speakers .thumbnail, .event_panel .thumbnail {
+    margin:0;
+    height: 100%;
+}
+
+.profile-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.event_speakers, .event_panel {
+    margin-top: 5rem;
+}
+
+.profile-card .caption {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.profile-card .caption div:last-child {
+    flex-grow: 1;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
 .event_speakers .row {
     display: -webkit-box;
     display: -webkit-flex;
@@ -425,6 +467,54 @@ section.event {
     display: flex;
     flex-direction: column;
 }
+
+
+.event_panel h3 {
+    margin-bottom: 16px;
+}
+.event_panel p {
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.event_panel .thumbnail img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:0;
+    min-width:100%;
+}
+.event_panel .heightfix {
+    justify-content: center;
+}
+.event_panel .row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+}
+.event_panel .row > [class*='col-'] {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-sub {
+    border: 1px solid #fff;
+    color: black;
+    background-color: #fff;
+}
+
+.btn-sub:hover {
+    background-color: #333333;
+    color: white;
+    border: 1px solid #333333;
+}
+
+.event_text .programma ul li {
+    font-size: 20px;
+}
+
+
 @media(max-width:767px) {
     #contact h2 {
         margin-bottom: -30px;

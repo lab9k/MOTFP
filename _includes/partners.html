@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <h2>Partners</h2>
-      <div class="col-md-2">
+      <div class="col-md-2 margin-fix">
         <a href="https://stad.gent/" alt="Stad Gent website" target="_blank">
           <img
             class="gent"
@@ -11,7 +11,7 @@
           />
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 margin-fix">
         <a
           href="https://www.designmuseumgent.be/"
           alt="Design Museum Gent website"
@@ -24,7 +24,7 @@
           />
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 margin-fix">
         <a
           href="https://www.digipolis.be/"
           alt="Digipolis website"
@@ -37,7 +37,7 @@
           />
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 margin-fix">
         <a
           href="https://www.oostende.be/"
           alt="Stad Oostende website"
@@ -50,7 +50,7 @@
           />
         </a>
       </div>
-      <div class="col-md-2">
+      <div class="col-md-2 margin-fix">
         <a href="https://dekrook.be/" alt="De Krook website" target="_blank">
           <img
             class="krook"
@@ -62,8 +62,12 @@
     </div>
     <div class="row">
       <h2>Providers</h2>
-      <div class="col-md-2">
-        <a href="https://www.crunchanalytics.be/" alt="Crunch Analytics website" target="_blank">
+      <div class="col-md-2 margin-fix">
+        <a
+          href="https://www.crunchanalytics.be/"
+          alt="Crunch Analytics website"
+          target="_blank"
+        >
           <img
             class="Crunch"
             src="{{ site.baseurl }}img/partners/Logo_crunch.png"
@@ -75,7 +79,8 @@
         <a
           href="https://www.ugent.be/mict/en"
           alt="MICT Website"
-          target="_blank">
+          target="_blank"
+        >
           <img
             class="MICT"
             src="{{ site.baseurl }}img/partners/Logo_mict.png"
@@ -97,11 +102,7 @@
         </a>
       </div>
       <div class="col-md-3">
-        <a
-          href="https://www.pozyx.io/"
-          alt="Pozyx website"
-          target="_blank"
-        >
+        <a href="https://www.pozyx.io/" alt="Pozyx website" target="_blank">
           <img
             class="pozyx"
             src="{{ site.baseurl }}img/partners/Logo_pozyx.png"
@@ -111,8 +112,8 @@
       </div>
     </div>
     <div class="row">
-        <h2>Project met steun van</h2>
-        <div class="col-md-6">
+      <h2>Project met steun van</h2>
+      <div class="col-md-6">
         <a
           href="https://www.vlaio.be/nl"
           alt="Vlaams agentschap innoveren & ondernemen"
@@ -124,23 +125,21 @@
             alt="De Krook logo"
           />
         </a>
-        </div>
-        <div class="col-md-6">
-            <a
-              href="https://www.imec.be"
-              alt="imec"
-              target="_blank"
-            >
-              <img
-                class="imec"
-                src="{{ site.baseurl }}img/partners/Logo_imec.svg"
-                alt="imec logo"
-              />
-            </a>
-        </div>
-        <a href="#contact" class="btn btn-circle page-scroll">
-            <i class="fa fa-angle-double-down animated"></i>
+      </div>
+      <div class="col-md-6">
+        <a href="https://www.imec.be" alt="imec" target="_blank">
+          <img
+            class="imec"
+            src="{{ site.baseurl }}img/partners/Logo_imec.svg"
+            alt="imec logo"
+          />
         </a>
+      </div>
+      {% if include.displayArrow != "false" %}
+      <a href="#contact" class="btn btn-circle page-scroll">
+        <i class="fa fa-angle-double-down animated"></i>
+      </a>
+      {% endif %}
     </div>
   </div>
 </section>
