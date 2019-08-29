@@ -408,6 +408,8 @@ section.event {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    margin:0;
+    min-width:100%;
 }
 .event_speakers .heightfix {
     justify-content: center;
