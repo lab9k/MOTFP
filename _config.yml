@@ -71,6 +71,13 @@ speakers:
     columns: 3
     subject: DriesDepoorter.key
     panel: false
+  - name: Annelies Desmet
+    page: https://deartech.org/
+    function: Co-founder Dear Tech
+    image: /img/sprekers/anneliesdesmet.jpg
+    columns: 4
+    subject: 'Rol van tech in de cultuursector'
+    panel: true  
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
