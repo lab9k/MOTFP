@@ -60,7 +60,12 @@ speakers:
     image: /img/sprekers/saralogghe.jpg
     columns: 3
     subject: Panellid: Rol van tech in de cultuursector
-
+  - name: Annelies Desmet
+    page: https://deartech.org/
+    function: Co-founder Dear Tech
+    image: /img/sprekers/anneliesdesmet.jpg
+    columns: 3
+    subject: Panellid: Rol van tech in de cultuursector
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
