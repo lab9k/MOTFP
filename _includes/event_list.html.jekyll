@@ -1,0 +1,268 @@
+<section class="event">
+  <!-- <img src="/img/MOTFP_banner_website.png" alt="MOTFP event banner" /> -->
+</section>
+<section class="event_text container" style="font-family: assistant">
+  <h1 id="margin-top">FUTURE OF CULTURE STUDIEDAG</h1>
+  <h2>19 september - De Krook - Gent</h2>
+  <a href="http://bit.ly/FUTUREofCULTURE" class="btn btn-default btn-sub"
+    >Registreer</a
+  >
+  <div class="row">
+    <div class="col-md-6 col-xs12 programma">
+      <p style="margin-top:2rem;">
+        De Future of Culture is een gratis event die het einde inluidt van het
+        Museum of Things for People project en waar we ook breder de vraag stellen
+        over de rol van technologie in de cultuursector en wat dit betekent voor de
+        toekomst van cultuur. Door cultuur professionals, bedrijven en smart city
+        verantwoordelijken samen te brengen willen zowel inspireren alsook het debat
+        aangaan. Het event bestaat uit drie delen:
+      </p>
+      <h2>Programma</h2>
+      <h3>Deel 1: Slotevent Museum of Things for People</h3>
+      <ul>
+        <li>
+          <b>10:00</b> Deuren open en koffie
+        </li>
+        <li>
+          <b>10:30</b> Slot voorstelling MOTFP project
+        </li>
+        <li>
+          <b>12:10</b> Vraag en antwoord sessie MOTFP
+        </li>
+        <li>
+          <b>12:30</b> Lunch
+        </li>
+      </ul>
+      <h3>Deel 2: Future of culture studiedag</h3>
+      <ul>
+        <li>
+          <b>13:30</b> Start studiedag en introductie
+        </li>
+        <li>
+          <b>14:00</b> Talk 1: De toekomst van cultuur
+        </li>
+        <li>
+          <b>14:30</b> Talk 2: De rol van technologie in de sector
+        </li>
+        <li>
+          <b>15:00</b> Talk 3: Inspiratie verhaal
+        </li>
+        <li>
+          <b>15:30</b> Pauze
+        </li>
+        <li>
+          <b>16:00</b> Panel rol van technologie in cultuursector
+        </li>
+        <li>
+          <b>17:00</b> Afsluiten
+        </li>
+      </ul>
+      <h3>Deel 3: After drink en MOTFP demo Design Museum gent</h3>
+      <ul>
+        <li>
+          <b>17:30</b> Welkom speech in Design Museum Gent
+        </li>
+        <li>
+          <b>17:45</b> Mogelijkheid om technologie te testen
+        </li>
+        <li>
+          <b>19:00</b> Einde event
+        </li>
+      </ul>
+    </div>
+    <div class="col-md-6 col-xs12">
+      <img src="/img/motfp_loop.gif" alt="motfp gif" style="max-width:100%;">
+    </div>
+  </div>
+  
+  
+  {%- comment -%}
+  <p>
+    Samen met alle partners stellen we op 19 september de resultaten, conclusies
+    en de toekomstplannen van het Museum of Things for People project voor.
+  </p>
+  <h3>BREDE STUDIEDAG</h3>
+  <p>
+    Samen met Cultuurconnect breiden we deze dag uit naar een studiedag over de
+    toekomst van cultuur. We inspireren de culturele sector met een drietal
+    razend interessante sprekers en een afsluitend panel. We voorzien ruimte
+    voor discussie met het publiek.
+  </p>
+  <p>
+    Inschrijven doe je via
+    <a href="http://bit.ly/FUTUREofCULTURE">http://bit.ly/FUTUREofCULTURE</a>.
+  </p>
+  <p>
+    Je kan je inschrijven op drie verschillende onderdelen:<br />
+    Van 10:00 tot 12:30 is de slotevent van MOTFP waarbij we het hele project
+    voorstellen van begin tot eind. Alle partners stellen daarbij hun conclusies
+    en de business case voor.<br />
+    Van 13:30 tot 17:00 is er aansluitend een studiedag over de toekomst van de
+    cultuur en de rol van technologie in de sector. Hier nodigen we nationale en
+    internationale sprekers uit om de discussie over de toekomst op gang te
+    brengen.<br />
+    Om 17:30 is er een afsluitend moment in het Design Museum Gent waar je de
+    MOTFP technologie nog eens kan testen, alsook een natje en droogje krijgt om
+    de dag af te sluiten.
+  </p>
+  {%- endcomment -%}
+</section>
+{% if site.speakers.size > 0 %}
+<section class="event_speakers container">
+  <h2>Sprekers</h2>
+  <div class="row grid">
+    {% assign speakers = site.speakers | where:"panel","false" %} {% for speaker
+    in speakers %}
+    <div class="col-xs-12 col-md-{{ speaker.columns }} heightfix">
+      <div class="thumbnail profile-card">
+        <img
+          src="{{ speaker.image }}"
+          alt="speaker profile picture"
+          loading="lazy"
+        />
+        <div class="caption">
+          <h3>
+            <small>{{ speaker.subject }}</small>
+          </h3>
+          <h3>
+            {{ speaker.name }}
+          </h3>
+          <p>{{ speaker.function }}</p>
+          <div>
+            <a href="{{ speaker.page }}" target="_blank">
+              <i class="fa fa-external-link"></i> {{ speaker.page }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+<section class="event_panel container" style="padding-bottom:5rem;">
+  <h2>Panel</h2>
+  <div class="row grid">
+    {% assign panel = site.speakers | where:"panel","true" %} {% for member in
+    panel %}
+    <div class="col-xs-12 col-md-{{ member.columns }} heightfix">
+      <div class="thumbnail profile-card">
+        <img
+          src="{{ member.image }}"
+          alt="panel member profile picture"
+          loading="lazy"
+        />
+        <div class="caption">
+          <h3>
+            <small>{{ member.subject }}</small>
+          </h3>
+          <h3>
+            {{ member.name }}
+          </h3>
+          <p>{{ member.function }}</p>
+          <div>
+            <a href="{{ member.page }}" target="_blank">
+              <i class="fa fa-external-link"></i> {{ member.page }}</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section id="partners" class="content-section text-center event_partners">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <a href="https://stad.gent/" alt="Stad Gent website" target="_blank">
+          <img
+            class="gent"
+            src="/img/partners/Logo_Gent.svg"
+            alt="Stad Gent logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a
+          href="https://www.designmuseumgent.be/"
+          alt="Design Museum Gent website"
+          target="_blank"
+        >
+          <img
+            class="dmg"
+            src="/img/partners/Logo Design Museum Gent.svg"
+            alt="Design Museum Gent logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a
+          href="https://www.digipolis.be/"
+          alt="Digipolis website"
+          target="_blank"
+        >
+          <img
+            class="digipolis"
+            src="/img/partners/Logo_digipolis.svg"
+            alt="Digipolis Gent logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a
+          href="https://www.oostende.be/"
+          alt="Stad Oostende website"
+          target="_blank"
+        >
+          <img
+            class="oostende"
+            src="/img/partners/Stad-Oostende.svg"
+            alt="Stad Oostende logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a href="https://dekrook.be/" alt="De Krook website" target="_blank">
+          <img
+            class="krook"
+            src="/img/partners/dekrook.svg"
+            alt="De Krook logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-2">
+        <a href="https://www.cultuurconnect.be/" alt="Cultuurconnect website" target="_blank">
+          <img src="/img/partners/Cultuurconnect_logo.png"
+            alt="cultuurconnect logo" 
+            class="cultuurconnect">
+        </a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <a
+          href="https://www.vlaio.be/nl"
+          alt="Vlaams agentschap innoveren & ondernemen"
+          target="_blank"
+        >
+          <img
+            class="vlaanderen"
+            src="/img/partners/vlaio.svg"
+            alt="De Krook logo"
+          />
+        </a>
+      </div>
+      <div class="col-md-6">
+        <a href="https://www.imec.be" alt="imec" target="_blank">
+          <img
+            class="imec"
+            src="/img/partners/Logo_imec.svg"
+            alt="imec logo"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
