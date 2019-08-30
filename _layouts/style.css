@@ -3,6 +3,11 @@
 
 /* All */
 
+body,html {
+    margin:0;
+    padding:0;
+}
+
 .btn-circle {
     position: absolute;
     top: 85%;
@@ -323,11 +328,11 @@ li:hover .box-dummy{
     margin-bottom: 7%;
 }
 
-#partners .row:first-child {
+/* #partners .row:first-child {
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
+} */
 
 #partners .acontrario,
 #partners .pozyx{
@@ -366,8 +371,12 @@ li:hover .box-dummy{
     #partners .vlaanderen,
     #partners .imec{
     width: 70%;
+    }
 }
-
+@media (max-width:992px){
+    #partners .row div {
+        margin-bottom: 5rem;
+    }
 }
 
 /* Contact */
@@ -513,7 +522,17 @@ section.event {
 .event_text .programma ul li {
     font-size: 20px;
 }
+.order-xs-reverse {
+    flex-direction: column-reverse;
+    display:flex;
+}
 
+@media (min-width: 576px) { 
+    .order-xs-reverse {
+        flex-direction: row;
+        display:flex;
+    }
+ }
 
 @media(max-width:767px) {
     #contact h2 {
