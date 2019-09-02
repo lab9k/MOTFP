@@ -57,6 +57,13 @@ speakers:
     columns: 3
     subject: Een smart museum voor slimme mensen
     panel: false
+  - name: Luc Delrue
+    page: https://cjsm.be/cultuur/
+    function: Secretaris-generaal van het Departement Cultuur, Jeugd en Media in Vlaanderen
+    image: /img/sprekers/lucdelrue.jpg
+    columns: 4
+    subject: 'Rol van tech in de cultuursector'
+    panel: true
   - name: Sara Logghe
     page: https://www.cultuurconnect.be/
     function: Project Manager R&D
@@ -77,7 +84,7 @@ speakers:
     image: /img/sprekers/anneliesdesmet.jpg
     columns: 4
     subject: 'Rol van tech in de cultuursector'
-    panel: true  
+    panel: true
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
