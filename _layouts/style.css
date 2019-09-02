@@ -25,11 +25,29 @@ body,html {
 
 .logo_MOTFP {
     width: 200px;
+}
+/* .navbar-inverse {
+    background-color: unset !important;
+} */
 
+.navbar {
+    margin-bottom: 0;
 }
 
-.nav {
-    margin-top: 62px;
+.top-nav-collapse {
+    background-color: #000000;
+}
+
+@media(min-width: 768px) {
+    .navbar-nav li a {
+        line-height: 110px;
+    }
+}
+
+@media(max-width: 860px) {
+  ul.nav.navbar-nav li a {
+    padding: 15px 7px;
+  }
 }
 
 /* header */
@@ -527,7 +545,7 @@ section.event {
     display:flex;
 }
 
-@media (min-width: 576px) { 
+@media (min-width: 576px) {
     .order-xs-reverse {
         flex-direction: row;
         display:flex;
