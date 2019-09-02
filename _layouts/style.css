@@ -356,9 +356,7 @@ li:hover .box-dummy{
 @media(max-width:767px) {
     #partners .col-md-2 {
         margin-bottom: 7%;
-        width: 35%;
         align-content: center;
-        margin-left: 33%;
     }
     #partners .col-md-2:last-child {
         margin-bottom: 15%;
@@ -511,6 +509,8 @@ section.event {
     border: 1px solid #fff;
     color: black;
     background-color: #fff;
+    margin: 2rem auto;
+    font-size: x-large;
 }
 
 .btn-sub:hover {
