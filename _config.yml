@@ -17,9 +17,6 @@ navitems:
   - name: over
     url: '#about'
     class: page-scroll
-  - name: Doel
-    url: '#goal'
-    class: page-scroll
   - name: Context
     url: '#context'
     class: page-scroll
@@ -28,6 +25,8 @@ navitems:
     class: page-scroll
   - name: blog
     url: 'https://medium.com/@MOTFP'
+  - name: documentatie
+    url: 'https://motfp.gitbook.io/documentatie/'   
   - name: contact
     url: '#contact'
     class: page-scroll
