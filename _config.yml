@@ -39,21 +39,21 @@ speakers:
     page: https://trendwolves.com/
     function: Trendwatcher & Manager trendwolves
     image: /img/sprekers/tompalmaerts.jpg
-    columns: 3
+    columns: 4
     subject: Culture in 2030
     panel: false
   - name: Fredo De Smet
     page: https://www.fredodesmet.com/
     function: Artistiek Consulent Design Museum Gent & Curator Hello Robot
     image: /img/sprekers/fredodesmet.jpg
-    columns: 3
+    columns: 4
     subject: The battle for the third space
     panel: false
   - name: Jasper Visser
     page: https://visschstam.com/
     function: Strategisch adviseur & Senior partner VISSCH+STAMM
     image: /img/sprekers/jaspervisser.jpg
-    columns: 3
+    columns: 4
     subject: Een smart museum voor slimme mensen
     panel: false
   - name: Luc Delrue
@@ -74,8 +74,15 @@ speakers:
     page: https://driesdepoorter.be/
     function: Creative Technologist / Artist
     image: /img/sprekers/driesdepoorter.jpg
-    columns: 3
+    columns: 6
     subject: DriesDepoorter.key
+    panel: false
+  - name: Jon Stam
+    page: http://www.commonplace.nl/
+    function: Concept Developer / Designer
+    image: /img/sprekers/jonstam.jpg
+    columns: 6
+    subject: Fixing Fixed Narratives (EN)
     panel: false
   - name: Annelies Desmet
     page: https://deartech.org/
