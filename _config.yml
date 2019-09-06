@@ -26,7 +26,7 @@ navitems:
   - name: blog
     url: 'https://medium.com/@MOTFP'
   - name: documentatie
-    url: 'https://motfp.gitbook.io/documentatie/'   
+    url: 'https://motfp.gitbook.io/documentatie/'
   - name: contact
     url: '#contact'
     class: page-scroll
@@ -67,7 +67,7 @@ speakers:
     page: https://www.cultuurconnect.be/
     function: Project Manager R&D
     image: /img/sprekers/saralogghe.jpg
-    columns: 4
+    columns: 3
     subject: 'Rol van tech in de cultuursector'
     panel: true
   - name: Dries Depoorter
@@ -81,7 +81,14 @@ speakers:
     page: https://deartech.org/
     function: Co-founder Dear Tech
     image: /img/sprekers/anneliesdesmet.jpg
-    columns: 4
+    columns: 3
+    subject: 'Rol van tech in de cultuursector'
+    panel: true
+  - name: Jasper Visser
+    page: https://visschstam.com/
+    function: Strategisch adviseur & Senior partner VISSCH+STAMM
+    image: /img/sprekers/jaspervisser.jpg
+    columns: 3
     subject: 'Rol van tech in de cultuursector'
     panel: true
 
