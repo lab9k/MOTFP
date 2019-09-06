@@ -74,14 +74,14 @@ speakers:
     page: https://driesdepoorter.be/
     function: Creative Technologist / Artist
     image: /img/sprekers/driesdepoorter.jpg
-    columns: 6
+    columns: 4
     subject: DriesDepoorter.key
     panel: false
   - name: Jon Stam
     page: http://www.commonplace.nl/
     function: Concept Developer / Designer
     image: /img/sprekers/jonstam.jpg
-    columns: 6
+    columns: 4
     subject: Fixing Fixed Narratives (EN)
     panel: false
   - name: Annelies Desmet
