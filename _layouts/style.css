@@ -92,10 +92,15 @@ body,html {
 }
 
 #about .row {
-    margin-bottom: 23.5%;
     width:95%;
     margin-left: 2.5%;
+}
 
+#about .row:nth-child(2) {
+  margin-bottom: 23.5%;
+}
+#about .row:nth-child(1) {
+  margin-bottom: 12%;
 }
 
 #about .row p {
